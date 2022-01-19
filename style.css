@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.ibb.co/Sxynbj6/backgroundimg2.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: repeat;
+  padding-bottom: 100px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin: px auto 0px auto;
+  background-color: black;
+  background: rgba(25, 25, 25, 0.5);
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  text-decoration: 0;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+img {
+  max-height: 250x;
+}
+.imagemJogos {
+  margin-left: 18px;
+  margin-top: 15px;
+  transition: 0.3s;
+  background-color: white;
+  padding: 1px;
+  max-height: 250px
+  
+}
+.imagemJogos:hover {
+  border: 2px solid white;
+  transform: scale(1.1);
+  cursor: pointer;
+ 
+}
+.souls-sub {
+  color: white;
+  margin: 0 0 5px;
+  font-size: 20px;
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  background-color: black;
+  background: rgba(25, 25, 25, 0.5);
+}
+
+.category {
+  font-family: OCR A Std, monospace;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 0px;
+  margin: 5px 5px;
+  background-color: black;
+  background: rgba(25, 25, 25, 0.8);
+}
+
+
+ 
+"ul::-webkit-scrollbar-thumb {
+ " display: ;
+ " background: #000
+}
+
+
+ul {
+	list-style: none;
+	display: flex;
+	overflow-x: auto;
+	padding: 0;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+  height: 265px
+}
